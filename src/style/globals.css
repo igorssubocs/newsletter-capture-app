@@ -1,0 +1,24 @@
+.theme-light {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --primary-color: #ef4444; /* red-500 */
+}
+
+/* Dark theme */
+.theme-dark {
+  --bg-color: #111111;
+  --text-color: #f3f4f6;
+  --primary-color: #f87171; /* red-400 */
+}
+
+/* Gradient theme (пример) */
+.theme-gradient {
+  --bg-color: linear-gradient(90deg, #f43f5e, #fbbf24);
+  --text-color: #ffffff;
+  --primary-color: #fbbf24;
+}
+
+/* Применяем переменные глобально */
+html, body, #root {
+  background-color: white;
+}
