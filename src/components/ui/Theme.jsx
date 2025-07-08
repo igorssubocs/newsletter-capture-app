@@ -1,7 +1,11 @@
 import React, { useState, useContext } from 'react'
 import { ThemeContext } from './ThemeContext'
 
-const themes = ['colorful', 'light', 'dark']
+const themes = [
+	// 'colorful', 
+	'light', 
+	'dark'
+]
 
 function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1)
